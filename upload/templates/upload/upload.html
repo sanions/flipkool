@@ -1,0 +1,11 @@
+
+
+<form action="/upload/" method="POST">
+    {% csrf_token %}
+    <label for="url">Enter a URL: </label>
+    <input id="url" type="text" name="url" value="">
+    <label for="pin">Enter a PIN: </label>
+    <input id="pin" type="text" name="pin" value="">
+    <input type="submit" value="Upload">
+</form>
+

@@ -1,0 +1,15 @@
+{% load static %}
+<div class="wrapper">
+
+<link rel="stylesheet" type="text/css" href="{% static 'upload/style.css' %}" />
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <label for="pin">kode:</label>
+    <h3>{{ wrong }}</h3>
+    <h4>{{ thanks }}</h4>
+    <input id="pin" type="password" name="pin" value="">
+    <input type="submit" value="FLIP">
+</form>
+
+</div>
