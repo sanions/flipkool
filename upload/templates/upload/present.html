@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" type="text/css" href="{% static 'upload/style.css' %}" />
 
-<form action="" method="POST">
+<form action="/present/" method="POST">
     {% csrf_token %}
     <label for="pin">kode:</label>
     <h3>{{ wrong }}</h3>

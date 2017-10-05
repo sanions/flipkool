@@ -20,4 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^upload/', include('upload.urls')),
     url(r'^', include('upload.presenturls')),
+    url(r'^present/', include('upload.presenturls')),
+
 ]
